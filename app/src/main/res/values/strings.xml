@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Де мій телефон</string>
+    <string name="channel_name">Фоновий пошук</string>
+
+    <!-- Головний екран -->
+    <string name="status_off">Пошук вимкнено</string>
+    <string name="status_starting">Запуск…</string>
+    <string name="status_on">Пошук увімкнено\nСлухаю: %1$s</string>
+    <string name="mode_clap">хлопок × %1$d</string>
+    <string name="mode_phrase">фраза «%1$s»</string>
+    <string name="notif_text">Слухаю: %1$s</string>
+    <string name="notif_ringing">Телефон подає сигнал!</string>
+    <string name="btn_start">Увімкнути пошук</string>
+    <string name="btn_stop">Вимкнути пошук</string>
+    <string name="btn_stop_alarm">Вимкнути сигнал</string>
+    <string name="btn_settings">Налаштування</string>
+    <string name="main_hint">Коли пошук увімкнено, телефон слухає навіть із вимкненим екраном. Хлопніть у долоні або скажіть пошукову фразу — і він почне голосно сигналити.</string>
+    <string name="toast_need_mic">Потрібен дозвіл на мікрофон — без нього телефон не зможе слухати</string>
+    <string name="toast_no_mode">Спершу ввімкніть хоча б один спосіб пошуку в налаштуваннях</string>
+
+    <!-- Налаштування -->
+    <string name="settings_title">Налаштування</string>
+
+    <string name="section_clap">Пошук за хлопком</string>
+    <string name="sw_clap">Реагувати на хлопок</string>
+    <string name="clap_count_label">Скільки хлопків потрібно</string>
+    <string name="clap_sensitivity_label">Чутливість (більше — реагує на тихіші хлопки)</string>
+
+    <string name="section_phrase">Пошук за фразою</string>
+    <string name="sw_phrase">Реагувати на пошукову фразу</string>
+    <string name="phrase_hint">Пошукова фраза</string>
+    <string name="btn_record_phrase">🎤 Сказати нову фразу</string>
+    <string name="language_label">Мова розпізнавання</string>
+    <string name="phrase_note">Розпізнавання мови працює через сервіс Google і може потребувати інтернету. Якщо ввімкнено і хлопок, і фразу, телефон слухає їх по черзі, тому реакція може бути трохи повільнішою.</string>
+    <string name="phrase_warning">На цьому телефоні не знайдено сервіс розпізнавання мови (потрібен Google). Пошук за фразою не працюватиме.</string>
+    <string name="say_phrase">Скажіть пошукову фразу</string>
+    <string name="toast_no_speech">Не знайдено сервіс розпізнавання мови. Введіть фразу вручну.</string>
+
+    <string name="section_sound">Звук сигналу</string>
+    <string name="sound_label">Який звук грати</string>
+    <string name="btn_pick_ringtone">Мелодії телефону…</string>
+    <string name="btn_pick_file">Аудіофайл…</string>
+    <string name="pick_ringtone_title">Оберіть мелодію</string>
+    <string name="custom_sound_none">Власний звук не вибрано</string>
+    <string name="custom_sound_current">Власний звук: %1$s</string>
+    <string name="volume_label">Гучність сигналу</string>
+    <string name="duration_label">Скільки сигналити</string>
+    <string name="test_start">▶ Перевірити звук</string>
+    <string name="test_stop">■ Зупинити звук</string>
+
+    <string name="section_background">Робота у фоні</string>
+    <string name="background_note">Щоб пошук не вимикався разом з екраном, дозвольте програмі працювати без обмежень економії заряду.</string>
+    <string name="btn_battery">Налаштування економії заряду</string>
+
+    <string-array name="clap_counts">
+        <item>1 хлопок</item>
+        <item>2 хлопки (рекомендовано)</item>
+        <item>3 хлопки</item>
+    </string-array>
+
+    <string-array name="language_names">
+        <item>Українська</item>
+        <item>Російська</item>
+        <item>Англійська</item>
+    </string-array>
+
+    <string-array name="sound_names">
+        <item>Сирена</item>
+        <item>Гудок</item>
+        <item>Системний будильник</item>
+        <item>Власний звук (обраний нижче)</item>
+    </string-array>
+
+    <string-array name="duration_names">
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+        <item>5 хвилин</item>
+        <item>Поки не вимкну</item>
+    </string-array>
+</resources>
